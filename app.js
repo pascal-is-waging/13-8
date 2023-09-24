@@ -1,6 +1,6 @@
 let title = "Space is a privilege";
 let written =
-  "anything that creates volume is a privilege, from the claustrophobic space of your room to the 1 million sq ft data centers, both of which predicate this very website.";
+  "anything that creates volume cradles privilege, from the 1 million sq ft data centers to the claustrophobic space of your room; both of which predicate this very website.";
 let words1 = title.split(" ");
 let words2 = written.split(" ");
 console.log(words1);
