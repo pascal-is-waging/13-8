@@ -43,16 +43,20 @@ body {
   color: gray;
   background-color: black;
 }
-.word2:nth-child(3n):hover {
+.word2:nth-child(4n):hover {
   position: absolute;
   transform: translate(-150%, -500%);
 }
-.word2:nth-child(3n + 1):hover {
+.word2:nth-child(4n + 1):hover {
   position: absolute;
   transform: translate(-200%, 150%);
 }
-.word2:nth-child(3n + 2):hover {
+.word2:nth-child(4n + 2):hover {
   transform: translate(1000%, -200%);
+  position: absolute;
+}
+.word2:nth-child(4n + 3):hover {
+  transform: translate(-500%, 2000%);
   position: absolute;
 }
 .para2 {
