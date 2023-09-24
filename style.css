@@ -1,0 +1,60 @@
+@font-face {
+  font-family: monothing;
+  src: url(/fonts/TokyoPalaceInMemoriam.ttf);
+}
+@font-face {
+  font-family: "Roberte";
+  src: url("fonts/Roberte-Regular.woff2");
+}
+@font-face {
+  font-family: "Roberte";
+  src: url("fonts/Roberte-Regular.woff");
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0px;
+  font-size: 1.8rem;
+}
+.contain {
+  position: fixed;
+  top: 35vh;
+  left: 35vw;
+  width: 30vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.word1 {
+  font-family: Roberte;
+  font-size: 6rem;
+}
+.word2 {
+  font-family: monothing;
+  font-size: 1.4rem;
+  color: rgb(50, 50, 50);
+}
+::selection {
+  color: gray;
+  background-color: black;
+}
+.word2:nth-child(3n):hover {
+  position: absolute;
+  transform: translate(-150%, -500%);
+}
+.word2:nth-child(3n + 1):hover {
+  position: absolute;
+  transform: translate(-200%, 150%);
+}
+.word2:nth-child(3n + 2):hover {
+  transform: translate(1000%, -200%);
+  position: absolute;
+}
+.para2 {
+  width: 25vw;
+}
