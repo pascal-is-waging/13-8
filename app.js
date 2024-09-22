@@ -7,6 +7,7 @@ console.log(words1);
 console.log(words2);
 const ourdiv = $(".contain");
 const temp2 = document.createElement("p");
+temp2.classList.add("para1");
 for (let x = 0; x < words1.length; x++) {
   const neword = document.createElement("span");
   neword.classList.add("word1");
