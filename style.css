@@ -132,6 +132,28 @@ body {
 .side-item:nth-child(4n):hover {
   cursor: nw-resize;
 }
+.wip {
+  font-size: 1.3rem;
+  position: fixed;
+  bottom: 1rem;
+  color: rgb(214, 214, 214);
+  /* left: 35vw; */
+  filter: drop-shadow(2px 4px 6px rgb(198, 198, 198));
+  width: 100vw;
+  display: flex;
+  font-family: "monothing";
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+.aaryan {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  /* color: black; */
+}
+.aaryan:hover {
+  color: black;
+}
 @keyframes titles {
   0% {
     -webkit-text-stroke: black 0px;
@@ -171,5 +193,13 @@ body {
     transform: translate(-150%, 300%);
     position: fixed;
     cursor: nw-resize;
+  }
+  .wip {
+    width: 56vw;
+    left: 27vw;
+    bottom: 0px;
+    font-size: 1.2rem;
+    margin: 0px;
+    padding: 0px;
   }
 }
