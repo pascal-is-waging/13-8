@@ -195,6 +195,7 @@ body {
     cursor: nw-resize;
   }
   .wip {
+    display: none;
     width: 56vw;
     left: 27vw;
     bottom: 0px;
