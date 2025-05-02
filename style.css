@@ -46,17 +46,17 @@ body {
   font-family: "Roberte";
   font-size: 2.5rem;
   text-decoration: none;
-  transform: skew(319deg, 352deg);
+  transform: skew(-60deg, -8deg);
 }
 .side-item:nth-child(4n + 1) {
   position: fixed;
-  top: 2vh;
-  left: 1vw;
+  bottom: 2vh;
+  left: 2vw;
 }
 .side-item:nth-child(4n + 2) {
   position: fixed;
   top: 2vh;
-  right: 1vw;
+  right: 2vw;
 }
 .side-item:nth-child(4n + 3) {
   position: fixed;
@@ -157,11 +157,11 @@ body {
 @keyframes titles {
   0% {
     -webkit-text-stroke: black 0px;
-    transform: skew(319deg, 352deg);
+    transform: skew(-60deg, -8deg);
   }
   100% {
     -webkit-text-stroke: black 1px;
-    transform: skew(0deg, 200deg);
+    transform: skew(0deg, 15deg);
   }
 }
 @media only screen and (max-width: 600px) {
